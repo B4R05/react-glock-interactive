@@ -5,8 +5,8 @@ Playing around with React and CSS animations.
 Simulate a shot, reload magazines and switch between full-automatic to semi-automatic fire modes. Images are based on SVGs off the original [Glock website](http://19x.glock.us).
 
 
-## Live Demo
-
+## Live Demos
+https://codepen.io/GavBarosee/pen/BGxVxE
 https://glockdemo.firebaseapp.com
 
 ## Preview
