@@ -1,0 +1,148 @@
+body {
+  padding-left: 15%;
+  padding-top: 4%;
+}
+
+button,
+input,
+label {
+  transform: scale(1.2);
+  margin: 5px;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.App {
+  position: relative;
+}
+
+.ejectbutton {
+  position: absolute;
+  left: 580px;
+  top: 295px;
+}
+
+.ejectbutton-press {
+  opacity: 0.2;
+}
+
+.magazine {
+  position: absolute;
+  left: 600px;
+  z-index: -10;
+  top: 294px;
+}
+
+.eject-then-load {
+  animation: 1s 0.1s eject-then-load ease;
+}
+
+@keyframes eject-then-load {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    opacity: 0;
+    transform: translate(30px, 100px);
+  }
+  50% {
+    opacity: 0;
+    transform: translate(30px, 100px);
+  }
+  75% {
+    opacity: 1;
+    transform: translate();
+  }
+}
+
+.barrel {
+  transform: rotate(1deg);
+  position: absolute;
+  z-index: -20;
+  left: 195px;
+  top: 125px;
+  transition: 0.5s;
+  opacity: 0.9;
+}
+
+.slider {
+  transition: 0.05s;
+  z-index: -10;
+  position: absolute;
+  left: 202px;
+  top: 105px;
+}
+
+.slider-back-only {
+  left: 352px;
+}
+
+.back-and-forth-once {
+  animation: 0.3s 0.05s back-and-forth-once ease;
+}
+
+.back-and-forth {
+  animation: 0.1s 0.05s back-and-forth-once ease 7;
+}
+
+@keyframes back-and-forth-once {
+  from {
+    left: 352px;
+  }
+
+  to {
+    left: 202px;
+  }
+}
+
+.post-loading-pull {
+  animation: 0.4s post-loading-pull ease;
+}
+
+@keyframes post-loading-pull {
+  0% {
+    left: 352px;
+  }
+
+  50% {
+    left: 420px;
+  }
+
+  100% {
+    left: 202px;
+  }
+}
+
+.bottom {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.trigger {
+  transform: rotate(10deg);
+  position: absolute;
+  top: 265px;
+  left: 490px;
+  z-index: -1;
+  transition: 0.1s;
+}
+
+.press-trigger {
+  animation: 0.1s press ease;
+}
+
+.hold-trigger {
+  transform: rotate(-10deg) translate(30px, 0px);
+}
+
+@keyframes press {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg) translate(30px, 0px);
+  }
+}
