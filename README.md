@@ -15,6 +15,7 @@ https://glockdemo.firebaseapp.com
 - Switch between either semi or full auto mode
 - Shoot and reload to your heart's content
 
+
 ## Installation
 
 - ```cd``` into the directory
