@@ -6,7 +6,9 @@ Simulate a shot, reload magazines and switch between full-automatic to semi-auto
 
 
 ## Live Demos
+
 https://codepen.io/GavBarosee/pen/BGxVxE
+
 https://glockdemo.firebaseapp.com
 
 ## Preview
