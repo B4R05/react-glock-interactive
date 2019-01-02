@@ -12,12 +12,12 @@ https://codepen.io/GavBarosee/pen/BGxVxE
 https://glockdemo.firebaseapp.com
 
 ## Preview
-![](glock.gif)
+![](glock.gif)content
 
 ## Features
 
 - Switch between either semi or full auto mode
-- Shoot and reload to your heart's content
+- Shoot and reload 
 
 
 ## Installation
