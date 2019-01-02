@@ -12,7 +12,7 @@ https://codepen.io/GavBarosee/pen/BGxVxE
 https://glockdemo.firebaseapp.com
 
 ## Preview
-![](glock.gif)content
+![](glock.gif)
 
 ## Features
 
